@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-272x" familyname="NI-272x"/>
+</nicomment>
+<nierror code="-363500">
+Internal error.
+</nierror>
+<nierror code="-363501">
+The DAQmx device you selected is not a valid NI-272x device.
+</nierror>
+<nierror code="-363502">
+Either the session handle provided does not reference an initialized device or the session was closed after the device was initialized. Call ni272x Initialize Session VI to initialize the device.<LF/><LF/>
+</nierror>
+<nierror code="-363503">
+The provided bank number is out of range for the initialized device. Use the ni272x Get Attribute (Poly) VI to get the bank numbers for the initialized device.<LF/><LF/>
+</nierror>
+<nierror code="-363504">
+The channel number provided  is out of range for the initialized device. Use the ni272x Get Attribute (Poly) VI to get the channel numbers for the initialized device.<LF/><LF/>
+</nierror>
+<nierror code="-363505">
+The attribute ID you provided is invalid.
+</nierror>
+<nierror code="-363506">
+The specified resistance is out of range for the specified channel on the initialized device. Use the ni272x Get Attribute (Poly) VI to get the minimum and maximum allowable resistances for a specific channel on an initialized device.<LF/><LF/>
+</nierror>
+<nierror code="-363507">
+The bank parameters provided are not adjacent so they can not be connected or disconnected. Pass in two adjacent banks when attempting to connect or disconnect banks.
+</nierror>
+<nierror code="-363508">
+The channel parameters provided are not adjacent so they can not be connected or disconnected. Pass in two adjacent channels when attempting to connect or disconnect channels.
+</nierror>
+<nierror code="-363509">
+The instrument handle provided is not  valid. Use the ni272x Initialize Session VI to create a valid instrument handle.<LF/><LF/>
+</nierror>
+<nierror code="-363510">
+The specified attribute is read-only for the initialized device or channel.
+</nierror>
+<nierror code="-363511">
+The set resistance value has not been cached for this channel. Pass True for "Reset Device? (T)" on the ni272x Initialize Session VI, or use an instance of ni272x Write (Poly) VI to read back the configured resistance for a channel.
+</nierror>
+<nierror code="-363512">
+Internal error. The calculated number of bits per channel is unsupported.  Contact National Instruments for support.
+</nierror>
+<nierror code="-363513">
+The configuration data is invalid.
+</nierror>
+<nierror code="-363514">
+The configuration data version is unsupported.  This version of the NI-272x Reference VIs only supports configuration data version 100.
+</nierror>
+<nierror code="-363515">
+The configuration file in the path provided was not loaded successfully and may be corrupt.
+</nierror>
+<nierror code="-363516">
+Internal error.  The semaphore refnum is invalid.  Contact National Instruments support for more information.
+</nierror>
+<nierror code="-363517">
+The channel string passed in could not be parsed.  Use the ni272x Get Attribute (Poly) VI instance for "Device->1D Array of String" to get a list of valid channel names for this session.
+</nierror>
+<nierror code="-363518">
+The bank string passed in could not be parsed.  Use the ni272x Get Attribute (Poly) VI to get a list of valid bank names for this device by selecting the instance "Device->1D Array of String" and a specified channel, "Channel->1D Array of String".
+</nierror>
+<nierror code="-363519">
+The bank could not connect to the connector identifier specified because the bank is already connected.
+</nierror>
+<nierror code="-363520">
+A bank in the requested connection channel is reserved for another connector.  Use ni272x Disconnect (Poly) VI to disconnect the adjacent channel from the appropriate connector first.
+</nierror>
+<nierror code="-363521">
+One of the banks that is required to be closed for connection to the specified connector is already connected to the DMM connector.  Call the ni272x Disconnect (Poly) VI to disconnect the appropriate channel from the DMM test connector first.
+</nierror>
+<nierror code="-363522">
+An adjacent bank is required to connect the specified channel to the DMM test connector.  The adjacent bank is already connected to the DUT connector.  To connect the specified channel to the DMM connector, call the ni272x Disconnect (Poly) VI to disconnect the adjacent channel from the DUT connector.
+</nierror>
+<nierror code="-363523">
+A previously reserved adjacent bank is no longer reserved.  The hardware may be in an unknown state. To resolve this issue, call the ni272x Close Session VI on this instrument handle and open a new instrument handle with one of the ni272x Initialize Session VIs
+</nierror>
+<nierror code="363800">
+NI_272x_WARNING_BASE.  This is the start of the NI-272x Reference VIs warning error codes.
+</nierror>
+<nierror code="363801">
+The bank specified for disconnection is not currently connected or there may be other inconsistencies with the hardware.  This may occur if you call a ni272x Disconnect (Poly) VI more than one time on a specified channel of a specified connector.  To remove this warning, remove superfluous instances of the ni272x Disconnect (Poly) VIs,
+</nierror>
+<nierror code="363802">
+The channel specified for disconnection is not currently connected or there may be other inconsistencies with the hardware.  This may occur if you call a ni272x Disconnect (Poly) VI more than one time on a specified channel of a specified connector.  To remove this warning, remove superfluous instances of the ni272x Disconnect (Poly) VIs
+</nierror>
+</nidocument>

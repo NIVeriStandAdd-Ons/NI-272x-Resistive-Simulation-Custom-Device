@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-272x" familyname="NI-272x"/>
+</nicomment>
+<nierror code="-363500">
+Erreur interne.
+</nierror>
+<nierror code="-363501">
+Le périphérique DAQmx que vous avez sélectionné n'est pas un périphérique NI-272x valide.
+</nierror>
+<nierror code="-363502">
+Soit le handle de session fourni ne fait pas référence à un périphérique initialisé, soit la session a été fermée suite à l'initialisation du périphérique. Appelez le VI ni272x Initialize Session pour initialiser le périphérique.<LF/><LF/>
+</nierror>
+<nierror code="-363503">
+Le numéro de banc fourni est hors gamme pour le périphérique initialisé. Utilisez le VI ni272x Get Attribute (Poly) pour obtenir les numéros des bancs du périphérique initialisé.<LF/><LF/>
+</nierror>
+<nierror code="-363504">
+Le numéro de voie fourni est hors gamme pour le périphérique initialisé. Utilisez le VI ni272x Get Attribute (Poly) pour obtenir les numéros des voies du périphérique initialisé.<LF/><LF/>
+</nierror>
+<nierror code="-363505">
+L'ID d'attribut indiqué n'est pas valide.
+</nierror>
+<nierror code="-363506">
+La résistance spécifiée est hors  gamme pour la voie spécifiée sur le périphérique initialisé. Utilisez le VI ni272x Get Attribute (Poly) pour obtenir les résistances minimale et maximale possibles pour une voie spécifique d'un périphérique initialisé.<LF/><LF/>
+</nierror>
+<nierror code="-363507">
+Les paramètres de bancs fournis correspondent à des bancs qui ne sont pas adjacents et qui ne peuvent dont pas être connectés ou déconnectés. Passez deux bancs adjacents en entrée pour connecter ou déconnecter des bancs.
+</nierror>
+<nierror code="-363508">
+Les paramètres de voies fournis correspondent à des voies qui ne sont pas adjacentes et qui ne peuvent dont pas être connectées ou déconnectées. Passez deux voies adjacentes en entrée pour connecter ou déconnecter des voies.
+</nierror>
+<nierror code="-363509">
+Le handle d'instrument n'est pas valide. Utilisez le VI ni272x Initialize Session pour créer un handle d'instrument valide.<LF/><LF/>
+</nierror>
+<nierror code="-363510">
+L'attribut spécifié est en lecture seule pour le périphérique initialisé ou la voie.
+</nierror>
+<nierror code="-363511">
+La valeur de "set resistance" n'a pas été mise en mémoire cache pour cette voie. Passez Vrai pour "Reset Device? (T)" sur le VI ni272x Initialize Session ou utilisez une instance du VI ni272x Write (Poly) pour lire la résistance configurée pour une voie.
+</nierror>
+<nierror code="-363512">
+Erreur interne. Le nombre de bits par voie calculé n'est pas supporté.  Veuillez contacter National Instruments pour obtenir de l'aide.
+</nierror>
+<nierror code="-363513">
+Les données de configuration ne sont pas valides.
+</nierror>
+<nierror code="-363514">
+La version des données de configuration n'est pas supportée.  Cette version des VIs de référence NI-272x ne supporte que la version 100 des données de configuration.
+</nierror>
+<nierror code="-363515">
+Le fichier de configuration au chemin spécifié n'a pas pu être chargé et risque d'être corrompu.
+</nierror>
+<nierror code="-363516">
+Erreur interne.  Le refnum de sémaphore n'est pas valide.  Contactez le support technique de National Instruments pour en savoir plus.
+</nierror>
+<nierror code="-363517">
+La chaîne de voie passée en entrée n'a pas pu être analysée.  Utilisez l'instance "Device>>1D Array of String" du VI ni272x Get Attribute (Poly) pour obtenir la liste de noms de voies valides pour cette session.
+</nierror>
+<nierror code="-363518">
+La chaîne de banc passée en entrée n'a pas pu être analysée.  Utilisez l'instance "Device>>1D Array of String" du VI ni272x Get Attribute (Poly) et une voie spécifiée, "Channel->1D Array of String", pour obtenir la liste de noms de bancs valides pour ce périphérique.
+</nierror>
+<nierror code="-363519">
+Impossible de connecter le banc au connecteur correspondant à l'identificateur de connecteur spécifié car ce banc est déjà connecté.
+</nierror>
+<nierror code="-363520">
+Un banc dans la voie de connexion demandée est réservé pour un autre connecteur.  Utilisez le VI ni272x Disconnect (Poly) pour commencer par déconnecter la voie adjacente du connecteur approprié.
+</nierror>
+<nierror code="-363521">
+Un des bancs qui doit être fermé pour établir la connexion au connecteur spécifié est déjà connecté au connecteur de DMM.  Appelez le VI ni272x Disconnect (Poly) pour commencer par déconnecter la voie appropriée du connecteur de test de DMM.
+</nierror>
+<nierror code="-363522">
+Un banc adjacent est requis pour connecter la voie spécifiée au connecteur de test de DMM.  Le banc adjacent est déjà connecté au connecteur de DUT.  Pour connecter la voie spécifiée au connecteur de DMM, appelez le VI ni272x Disconnect (Poly) pour déconnecter la voie adjacente du connecteur de DUT.
+</nierror>
+<nierror code="-363523">
+Un banc adjacent qui était réservé ne l'est plus.  Le matériel risque d'être dans un état inconnu. Pour résoudre ce problème, appelez le VI ni272x Close Session sur ce handle d'instrument et ouvrez un nouveau handle d'instrument avec l'un des VIs ni272x Initialize Session.
+</nierror>
+<nierror code="363800">
+BASE_DE_MISES_EN_GARDE_NI_272x.  Ceci est le début des codes de mise en garde des VIs de référence NI-272x.
+</nierror>
+<nierror code="363801">
+Le banc spécifié pour la déconnexion n'est pas connecté ou il existe d'autres incohérences avec le matériel.  Cause possible : vous appelez plusieurs fois un VI ni272x Disconnect (Poly) sur une voie spécifiée d'un connecteur spécifié.  Pour supprimer cette mise en garde, supprimez les instances superflues des VIs ni272x Disconnect (Poly).
+</nierror>
+<nierror code="363802">
+La voie spécifiée pour la déconnexion n'est pas connectée ou il existe d'autres incohérences avec le matériel.  Cause possible : vous appelez plusieurs fois un VI ni272x Disconnect (Poly) sur une voie spécifiée d'un connecteur spécifié.  Pour supprimer cette mise en garde, supprimez les instances superflues des VIs ni272x Disconnect (Poly).
+</nierror>
+</nidocument>

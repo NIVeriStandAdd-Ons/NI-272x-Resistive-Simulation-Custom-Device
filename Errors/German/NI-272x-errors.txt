@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-272x" familyname="NI-272x"/>
+</nicomment>
+<nierror code="-363500">
+Interner Fehler.
+</nierror>
+<nierror code="-363501">
+Das ausgewählte DAQmx-Gerät ist kein gültiges NI-272x-Gerät.
+</nierror>
+<nierror code="-363502">
+Das Session-Handle bezieht sich auf kein initialisiertes Gerät oder die Session wurde geschlossen, nachdem das Gerät initialisiert wurde. Initialisieren Sie das Gerät mit dem VI "ni272x Initialize Session".
+</nierror>
+<nierror code="-363503">
+Die Bankanzahl liegt für das initialisierte Gerät außerhalb des gültigen Bereichs. Ermitteln Sie die Anzahl für das initialisierte Gerät mit dem Poly-VI "ni272x Get Attribute".
+</nierror>
+<nierror code="-363504">
+Die Kanalanzahl liegt für das initialisierte Gerät außerhalb des gültigen Bereichs. Ermitteln Sie die Anzahl für das initialisierte Gerät mit dem Poly-VI "ni272x Get Attribute".
+</nierror>
+<nierror code="-363505">
+Die angegebene Attribut-ID ist ungültig.
+</nierror>
+<nierror code="-363506">
+Der Widerstand liegt außerhalb des gültigen Bereichs für den festgelegten Kanal am initialisierten Gerät. Ermitteln Sie gültige Widerstandswerte für einen bestimmten Kanal am initialisierten Gerät mit dem Poly-VI "ni272x Get Attribute".
+</nierror>
+<nierror code="-363507">
+Die Bankparameter sind nicht benachbart und können daher nicht verbunden oder getrennt werden. Wenn Sie Bänke verbinden oder trennen möchten, müssen Sie zwei benachbarte Bänke weiterleiten.
+</nierror>
+<nierror code="-363508">
+Die Kanalparameter sind nicht benachbart und können daher nicht verbunden oder getrennt werden. Wenn Sie Kanäle verbinden oder trennen möchten, müssen Sie zwei benachbarte Kanäle weiterleiten.
+</nierror>
+<nierror code="-363509">
+Das Geräte-Handle ist nicht gültig. Erstellen Sie mit dem VI "ni272x Initialize Session" ein gültiges Handle.
+</nierror>
+<nierror code="-363510">
+Das angegebene Attribut ist schreibgeschützt für das initialisierte Gerät oder den Kanal.
+</nierror>
+<nierror code="-363511">
+Der festgelegte Widerstand wurde für diesen Kanal nicht zwischengespeichert. Verbinden Sie eine True-Konstante mit "Reset Device? (T)" im VI "ni272x Initialize Session" oder ermitteln Sie den konfigurierten Widerstand für den Kanal mit einer Instanz des Poly-VIs "ni272x Write".
+</nierror>
+<nierror code="-363512">
+Interner Fehler. Die berechnete Anzahl der Bits pro Kanal wird nicht unterstützt.  Wenden Sie sich bitte an den technischen Support von National Instruments.
+</nierror>
+<nierror code="-363513">
+Die Konfigurationsdaten sind ungültig.
+</nierror>
+<nierror code="-363514">
+Die Version der Konfigurationsdaten wird nicht unterstützt.  Diese Version der NI-272x-Referenz-VIs unterstützt nur die Version 100.
+</nierror>
+<nierror code="-363515">
+Die angegebene Konfigurationsdatei konnte nicht erfolgreich geladen werden und ist ggf. fehlerhaft.
+</nierror>
+<nierror code="-363516">
+Interner Fehler.  Die Semaphorreferenz ist ungültig.  Wenden Sie sich für weitere Informationen an National Instruments.
+</nierror>
+<nierror code="-363517">
+Der weitergeleitete Kanal-String konnte nicht analysiert werden.  Ermitteln Sie mithilfe der Instanz "Device->1D Array of String" des Poly-VIs "ni272x Get Attribute" alle gültigen Kanalnamen für diese Session.
+</nierror>
+<nierror code="-363518">
+Der weitergeleitete Bank-String konnte nicht analysiert werden.  Ermitteln Sie mithilfe des Poly-VIs "ni272x Get Attribute" alle gültigen Banknamen für dieses Gerät. Wählen Sie dafür die Instanz "Device->1D Array of String" und einen Kanal "Channel->1D Array of String".
+</nierror>
+<nierror code="-363519">
+Die Bank konnte nicht mit der angegebenen Anschluss-ID verbunden werden, da sie bereits verbunden ist.
+</nierror>
+<nierror code="-363520">
+Eine Bank im angeforderten Verbindungskanal ist bereits für einen anderen Anschluss reserviert.  Rufen Sie das Poly-VI "ni272x Disconnect" auf, um zunächst den benachbarten Kanal vom entsprechenden Anschluss zu trennen.
+</nierror>
+<nierror code="-363521">
+Eine Bank, die geschlossen werden muss, um sie mit dem angegebenen Anschluss zu verbinden, ist bereits mit dem DMM-Anschluss verbunden.  Rufen Sie das Poly-VI "ni272x Disconnect" auf, um zunächst den entsprechenden Kanal vom DMM-Test-Anschluss zu trennen.
+</nierror>
+<nierror code="-363522">
+Eine benachbarte Bank muss den angegebenen Kanal mit dem DMM-Test-Anschluss verbinden.  Die Bank ist bereits mit dem Prüflingsanschluss verbunden.  Um den Kanal mit dem DMM-Anschluss zu verbinden, rufen Sie das Poly-VI "ni272x Disconnect" auf und trennen Sie den benachbarten Kanal vom Prüflingsanschluss.
+</nierror>
+<nierror code="-363523">
+Eine zuvor reservierte benachbarte Bank ist nicht mehr reserviert.  Die Hardware befindet sich ggf. in einem unbekannten Zustand. Rufen sie das VI "ni272x Close Session" für dieses Geräte-Handle auf und öffnen Sie ein neues Handle mit einem der ni272x-Initialisierungs-VIs.
+</nierror>
+<nierror code="363800">
+NI_272x_WARNING_BASE.  Hier beginnen die Warnungen für NI-272x-Referenz-VIs.
+</nierror>
+<nierror code="363801">
+Die zu trennende Bank ist momentan nicht verbunden oder es gibt Probleme mit der Hardware.  Dies kann der Fall sein, wenn Sie eine Instanz des Poly-VIs "ni272x Disconnect" mehrmals für einen Kanal oder Anschluss aufrufen.  Entfernen Sie zum Löschen dieser Warnung überflüssige Instanzen des Poly-VIs "ni272x Disconnect".
+</nierror>
+<nierror code="363802">
+Der zu trennende Kanal ist momentan nicht verbunden oder es gibt Probleme mit der Hardware.  Dies kann der Fall sein, wenn Sie eine Instanz des Poly-VIs "ni272x Disconnect" mehrmals für einen Kanal oder Anschluss aufrufen.  Entfernen Sie zum Löschen dieser Warnung überflüssige Instanzen des Poly-VIs "ni272x Disconnect".
+</nierror>
+</nidocument>
