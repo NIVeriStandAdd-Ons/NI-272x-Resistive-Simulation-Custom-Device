@@ -1,3 +1,5 @@
+**NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+
 ## NI 272x Resistive Simulation Custom Device ##
 
 **NI 272x Resistive Simulation Custom Device** integrates the NI 272x series resistive simulation hardware into NI VeriStand.
