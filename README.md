@@ -1,4 +1,5 @@
 **NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+It has not been widely used lately, but is still of high quality.  This is still the software to use for these cards.  Barring unforseen upgrade difficulties, it will likely work very well.
 
 ## NI 272x Resistive Simulation Custom Device ##
 
