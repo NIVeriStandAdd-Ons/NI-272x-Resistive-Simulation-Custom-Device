@@ -114,7 +114,6 @@
 				<Item Name="ni272x Disconnect 2Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Disconnect 2Chan.vi"/>
 				<Item Name="ni272x Disconnect from Connector 1Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Disconnect from Connector 1Chan.vi"/>
 				<Item Name="ni272x Unset Channel Connection Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Unset Channel Connection Status.vi"/>
-				<Item Name="ni272x Close Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Close Session.vi"/>
 				<Item Name="ni272x Initialize Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Initialize Session.vi"/>
 				<Item Name="ni272x Get Default Configuration Data.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Get Default Configuration Data.vi"/>
 				<Item Name="ni272x Initialize Session with Configuration.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Initialize Session with Configuration.vi"/>
@@ -182,6 +181,7 @@
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
+				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -198,7 +198,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BED7CCFA-79E5-4687-A685-16C9B9B71B52}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI 272x Resistive Simulation/Configuration.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
@@ -209,7 +209,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CA10D911-B0F0-42D4-9999-1BAEF20DCDCC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D5D4DD9C-11B1-4BA6-B3F7-BD1198838460}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -276,7 +276,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{90850C0E-9EA8-41D0-ABCA-F2BDFB457463}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/NI 272x Resistive Simulation/Engine.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
@@ -285,7 +285,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49CBD922-16F3-49EE-8C62-54A2CB49DA89}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D5D4DD9C-11B1-4BA6-B3F7-BD1198838460}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -351,7 +351,11 @@
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/CD Libraries/Shared and Engine/NI 272x Resistive Simulation Custom Device Engine.lvlib/Engine/Run/Async Engine.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
