@@ -63,9 +63,9 @@
 		<Item Name="Compile Connect Channel Data.vi" Type="VI" URL="../SubVI/Compile Connect Channel Data.vi"/>
 		<Item Name="Compile HW Channel Data.vi" Type="VI" URL="../SubVI/Compile HW Channel Data.vi"/>
 		<Item Name="Get Channel Units From Section by #.vi" Type="VI" URL="../SubVI/Get Channel Units From Section by #.vi"/>
+		<Item Name="Build Actual Engine Group.vi" Type="VI" URL="../SubVI/Build Actual Engine Group.vi"/>
+		<Item Name="Build Bank Engine Group.vi" Type="VI" URL="../SubVI/Build Bank Engine Group.vi"/>
+		<Item Name="Build Desired Engine Group.vi" Type="VI" URL="../SubVI/Build Desired Engine Group.vi"/>
+		<Item Name="Build Diagnostics Engine Group.vi" Type="VI" URL="../SubVI/Build Diagnostics Engine Group.vi"/>
 	</Item>
-	<Item Name="Build Actual Engine Group.vi" Type="VI" URL="../SubVI/Build Actual Engine Group.vi"/>
-	<Item Name="Build Bank Engine Group.vi" Type="VI" URL="../SubVI/Build Bank Engine Group.vi"/>
-	<Item Name="Build Desired Engine Group.vi" Type="VI" URL="../SubVI/Build Desired Engine Group.vi"/>
-	<Item Name="Build Diagnostics Engine Group.vi" Type="VI" URL="../SubVI/Build Diagnostics Engine Group.vi"/>
 </Library>

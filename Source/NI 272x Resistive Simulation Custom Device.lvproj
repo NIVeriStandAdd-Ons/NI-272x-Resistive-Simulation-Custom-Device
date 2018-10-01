@@ -114,12 +114,13 @@
 				<Item Name="ni272x Disconnect 2Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Disconnect 2Chan.vi"/>
 				<Item Name="ni272x Disconnect from Connector 1Chan.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Disconnect from Connector 1Chan.vi"/>
 				<Item Name="ni272x Unset Channel Connection Status.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Unset Channel Connection Status.vi"/>
-				<Item Name="ni272x Initialize Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Initialize Session.vi"/>
-				<Item Name="ni272x Get Default Configuration Data.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Get Default Configuration Data.vi"/>
-				<Item Name="ni272x Initialize Session with Configuration.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Initialize Session with Configuration.vi"/>
-				<Item Name="ni272x Transform from Configuration to Session Data.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Transform from Configuration to Session Data.vi"/>
-				<Item Name="ni272x Refnum Add Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Refnum Add Session.vi"/>
 				<Item Name="ni272x Callendar-Van Dusen RTD Parameters.ctl" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Callendar-Van Dusen RTD Parameters.ctl"/>
+				<Item Name="ni272x Refnum Add Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Refnum Add Session.vi"/>
+				<Item Name="ni272x Transform from Configuration to Session Data.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Transform from Configuration to Session Data.vi"/>
+				<Item Name="ni272x Initialize Session with Configuration.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Initialize Session with Configuration.vi"/>
+				<Item Name="ni272x Get Default Configuration Data.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Get Default Configuration Data.vi"/>
+				<Item Name="ni272x Initialize Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Initialize Session.vi"/>
+				<Item Name="ni272x Close Session.vi" Type="VI" URL="/&lt;instrlib&gt;/ni272xReferenceVIs/ni272xReferenceVIs.llb/ni272x Close Session.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
@@ -137,9 +138,6 @@
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
 				<Item Name="DAQmx Switch Close Relays.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/hardwareSpecific/Switch.llb/DAQmx Switch Close Relays.vi"/>
 				<Item Name="DAQmx Switch Wait for Settling.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/hardwareSpecific/Switch.llb/DAQmx Switch Wait for Settling.vi"/>
-				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
@@ -182,6 +180,9 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
+				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

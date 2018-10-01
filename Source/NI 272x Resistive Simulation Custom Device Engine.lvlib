@@ -12,16 +12,20 @@
 		<Item Name="Run" Type="Folder">
 			<Item Name="Async Engine.vi" Type="VI" URL="../Engine/Async Engine.vi"/>
 		</Item>
+		<Item Name="bank params.ctl" Type="VI" URL="../Engine/bank params.ctl"/>
+		<Item Name="resistance params.ctl" Type="VI" URL="../Engine/resistance params.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Engine Initialize.vi" Type="VI" URL="../SubVI/Engine Initialize.vi"/>
-		<Item Name="Make Hardware Resist and Temp Calls.vi" Type="VI" URL="../SubVI/Make Hardware Resist and Temp Calls.vi"/>
-		<Item Name="Make Hardware Connect Calls.vi" Type="VI" URL="../SubVI/Make Hardware Connect Calls.vi"/>
 		<Item Name="Update Status Channels.vi" Type="VI" URL="../SubVI/Update Status Channels.vi"/>
-		<Item Name="Set Hardware FP Connections.vi" Type="VI" URL="../SubVI/Set Hardware FP Connections.vi"/>
-		<Item Name="Print Error.vi" Type="VI" URL="../SubVI/Print Error.vi"/>
-		<Item Name="Clear FIFO Error.vi" Type="VI" URL="../SubVI/Clear FIFO Error.vi"/>
+		<Item Name="Control Bank Relays.vi" Type="VI" URL="../Engine/Control Bank Relays.vi"/>
+		<Item Name="Control Resistance.vi" Type="VI" URL="../Engine/Control Resistance.vi"/>
+		<Item Name="Report Diagnostics.vi" Type="VI" URL="../Engine/Report Diagnostics.vi"/>
+		<Item Name="ni272x Write Resistance nChan 1Samp.vi" Type="VI" URL="../SubVI/ni272x Write Resistance nChan 1Samp.vi"/>
 	</Item>
+	<Item Name="control bank relay.vi" Type="VI" URL="../Engine/control bank relay.vi"/>
 	<Item Name="Driver.vi" Type="VI" URL="../Dynamically Called/Driver.vi"/>
+	<Item Name="initialize bank params.vi" Type="VI" URL="../Engine/initialize bank params.vi"/>
+	<Item Name="initialize resistance params.vi" Type="VI" URL="../Engine/initialize resistance params.vi"/>
+	<Item Name="set channel.vi" Type="VI" URL="../Engine/set channel.vi"/>
 </Library>
