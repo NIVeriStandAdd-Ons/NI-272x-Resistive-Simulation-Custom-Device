@@ -33,6 +33,14 @@
 				<Item Name="NI 272x Resistive Simulation Custom Device Shared.lvlib" Type="Library" URL="../NI 272x Resistive Simulation Custom Device Shared.lvlib"/>
 			</Item>
 		</Item>
+		<Item Name="Quick Start Documentation" Type="Folder">
+			<Item Name="Images" Type="Folder">
+				<Item Name="1_DeviceSettings.png" Type="Document" URL="../Quick Start Documentation/Images/1_DeviceSettings.png"/>
+				<Item Name="2_MainPageSettings.png" Type="Document" URL="../Quick Start Documentation/Images/2_MainPageSettings.png"/>
+				<Item Name="3_DesiredValues.png" Type="Document" URL="../Quick Start Documentation/Images/3_DesiredValues.png"/>
+			</Item>
+			<Item Name="NI-272x Resistive Simulation Quick Start Guide.md" Type="Document" URL="../Quick Start Documentation/NI-272x Resistive Simulation Quick Start Guide.md"/>
+		</Item>
 		<Item Name="Custom Device NI 272x Resistive Simulation.xml" Type="Document" URL="../Custom Device NI 272x Resistive Simulation.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -199,13 +207,17 @@
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI 272x Resistive Simulation/Configuration.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/NI 272x Resistive Simulation/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI 272x Resistive Simulation</Property>
 				<Property Name="Destination[2].destName" Type="Str">XML Destination</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI 272x Resistive Simulation</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">Quick Start Markdown</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI 272x Resistive Simulation/Quick Start Documentation</Property>
+				<Property Name="Destination[4].destName" Type="Str">Quick Start Images</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI 272x Resistive Simulation/Quick Start Documentation/Images</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C9EE4039-3B68-4392-B80B-CF32DBFCA30B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B519ABB-92CD-445E-AC0D-F9EE4DC8EF33}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -217,6 +229,13 @@
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device NI 272x Resistive Simulation.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Quick Start Documentation/Images</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Quick Start Documentation/NI-272x Resistive Simulation Quick Start Guide.md</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CD Libraries/Config/NI 272x Resistive Simulation Custom Device Configuration.lvlib/Dynamically Called/Initialization VI.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
@@ -260,7 +279,13 @@
 				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Quick Start Documentation</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 			<Item Name="Engine" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{6CE00B0C-389B-4D27-A5D1-BE52E81AAFA9}</Property>

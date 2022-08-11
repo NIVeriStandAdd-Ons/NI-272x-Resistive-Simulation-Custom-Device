@@ -1,0 +1,649 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>NI 272x Resistive Simulation Custom Device</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Configuration.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Custom Device NI 272x Resistive Simulation.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Engine.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i6">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Engine_depinstr.bin</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i7">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\1_DeviceSettings.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i8">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\2_MainPageSettings.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i9">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\3_DesiredValues.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i10">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\NI-272x Resistive Simulation Quick Start Guide.md</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i11">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Configuration.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i12">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Custom Device NI 272x Resistive Simulation.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i13">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i14">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Engine.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i15">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Engine_depinstr.bin</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i16">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\1_DeviceSettings.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i17">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\2_MainPageSettings.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\3_DesiredValues.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i19">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\NI-272x Resistive Simulation Quick Start Guide.md</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i20">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Configuration.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i21">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Custom Device NI 272x Resistive Simulation.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i22">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i23">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Engine.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i24">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Engine_depinstr.bin</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i25">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\1_DeviceSettings.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i26">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\2_MainPageSettings.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i27">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\3_DesiredValues.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i28">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\NI-272x Resistive Simulation Quick Start Guide.md</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i29">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i7" />
+                <SourceItem z:Ref="i8" />
+                <SourceItem z:Ref="i9" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i30">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i18" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i31">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i25" />
+                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i27" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i32">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i10" />
+                <SourceItem z:Ref="i29" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i33">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i19" />
+                <SourceItem z:Ref="i30" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i34">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i28" />
+                <SourceItem z:Ref="i31" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i35">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+                <SourceItem z:Ref="i3" />
+                <SourceItem z:Ref="i4" />
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i6" />
+                <SourceItem z:Ref="i32" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i36">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i11" />
+                <SourceItem z:Ref="i12" />
+                <SourceItem z:Ref="i13" />
+                <SourceItem z:Ref="i14" />
+                <SourceItem z:Ref="i15" />
+                <SourceItem z:Ref="i33" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i37">
+            <PluginConfigurationOptions />
+            <RelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i21" />
+                <SourceItem z:Ref="i22" />
+                <SourceItem z:Ref="i23" />
+                <SourceItem z:Ref="i24" />
+                <SourceItem z:Ref="i34" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i35" />
+        <SourceItem z:Ref="i36" />
+        <SourceItem z:Ref="i37" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i38" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i39" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i40" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019</DestinationRelativePath>
+                    <Name>NI VeriStand 2019</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i41" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices</DestinationRelativePath>
+                    <Name>Custom Devices</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i42" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation</DestinationRelativePath>
+                    <Name>NI 272x Resistive Simulation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i43" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Configuration.llb</DestinationRelativePath>
+                    <Name>Configuration.llb</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i44" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Custom Device NI 272x Resistive Simulation.xml</DestinationRelativePath>
+                    <Name>Custom Device NI 272x Resistive Simulation.xml</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i45" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb</DestinationRelativePath>
+                    <Name>Engine Linux64.llb</Name>
+                    <SourceItem z:Ref="i4" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i46" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Engine.llb</DestinationRelativePath>
+                    <Name>Engine.llb</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i47" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Engine_depinstr.bin</DestinationRelativePath>
+                    <Name>Engine_depinstr.bin</Name>
+                    <SourceItem z:Ref="i6" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i48" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation</DestinationRelativePath>
+                    <Name>Quick Start Documentation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i49" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\NI-272x Resistive Simulation Quick Start Guide.md</DestinationRelativePath>
+                    <Name>NI-272x Resistive Simulation Quick Start Guide.md</Name>
+                    <SourceItem z:Ref="i10" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i50" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images</DestinationRelativePath>
+                    <Name>Images</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i51" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\1_DeviceSettings.png</DestinationRelativePath>
+                    <Name>1_DeviceSettings.png</Name>
+                    <SourceItem z:Ref="i7" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i52" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\2_MainPageSettings.png</DestinationRelativePath>
+                    <Name>2_MainPageSettings.png</Name>
+                    <SourceItem z:Ref="i8" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i53" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2019\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\3_DesiredValues.png</DestinationRelativePath>
+                    <Name>3_DesiredValues.png</Name>
+                    <SourceItem z:Ref="i9" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>NI 272x Resistive Simulation for VeriStand 2019</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_all</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i54">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>ni-272x-resistive-simulation-veristand-2019-support_2.2.0.1_windows_all.nipkg</FileName>
+                <Version>2.2.0.1</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <Description>NI 272x Resistive Simulation Custom Device integrates the NI 272x series resistive simulation hardware into NI VeriStand. This custom device supports Windows, Pharlap RT and Linux RT targets.</Description>
+            <DisplayName>NI 272x Resistive Simulation for VeriStand 2019</DisplayName>
+            <FileName>ni-272x-resistive-simulation-veristand-2019-support_2.2.0.0_windows_all.nipkg</FileName>
+            <MaintainerEmail>ni-forum@email.com</MaintainerEmail>
+            <MaintainerName>VeriStand Open Source Add-Ons</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-272x-resistive-simulation-veristand-2019-support</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Add-Ons</Section>
+            <Synopsis>NI 272x Resistive Simulation Custom Device </Synopsis>
+            <Version>2.2.0.0</Version>
+        </Distribution>
+        <Distribution z:Id="i55" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i56" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i57" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020</DestinationRelativePath>
+                    <Name>NI VeriStand 2020</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i58" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices</DestinationRelativePath>
+                    <Name>Custom Devices</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i59" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation</DestinationRelativePath>
+                    <Name>NI 272x Resistive Simulation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i60" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Configuration.llb</DestinationRelativePath>
+                    <Name>Configuration.llb</Name>
+                    <SourceItem z:Ref="i11" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i61" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Custom Device NI 272x Resistive Simulation.xml</DestinationRelativePath>
+                    <Name>Custom Device NI 272x Resistive Simulation.xml</Name>
+                    <SourceItem z:Ref="i12" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i62" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb</DestinationRelativePath>
+                    <Name>Engine Linux64.llb</Name>
+                    <SourceItem z:Ref="i13" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i63" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Engine.llb</DestinationRelativePath>
+                    <Name>Engine.llb</Name>
+                    <SourceItem z:Ref="i14" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i64" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Engine_depinstr.bin</DestinationRelativePath>
+                    <Name>Engine_depinstr.bin</Name>
+                    <SourceItem z:Ref="i15" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i65" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation</DestinationRelativePath>
+                    <Name>Quick Start Documentation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i66" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\NI-272x Resistive Simulation Quick Start Guide.md</DestinationRelativePath>
+                    <Name>NI-272x Resistive Simulation Quick Start Guide.md</Name>
+                    <SourceItem z:Ref="i19" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i67" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images</DestinationRelativePath>
+                    <Name>Images</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i68" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\1_DeviceSettings.png</DestinationRelativePath>
+                    <Name>1_DeviceSettings.png</Name>
+                    <SourceItem z:Ref="i16" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i69" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\2_MainPageSettings.png</DestinationRelativePath>
+                    <Name>2_MainPageSettings.png</Name>
+                    <SourceItem z:Ref="i17" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i70" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2020\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\3_DesiredValues.png</DestinationRelativePath>
+                    <Name>3_DesiredValues.png</Name>
+                    <SourceItem z:Ref="i18" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>NI 272x Resistive Simulation for VeriStand 2020</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_all</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i71">
+                <FileName />
+                <Version>none</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <Description>NI 272x Resistive Simulation Custom Device integrates the NI 272x series resistive simulation hardware into NI VeriStand. This custom device supports Windows, Pharlap RT and Linux RT targets.</Description>
+            <DisplayName>NI 272x Resistive Simulation for VeriStand 2020</DisplayName>
+            <FileName>ni-272x-resistive-simulation-veristand-2020-support_2.2.0.0_windows_all.nipkg</FileName>
+            <MaintainerEmail>ni-forum@email.com</MaintainerEmail>
+            <MaintainerName>VeriStand Open Source Add-Ons</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-272x-resistive-simulation-veristand-2020-support</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct-1</ProductName>
+            <Section>Add-Ons</Section>
+            <Synopsis>NI 272x Resistive Simulation Custom Device </Synopsis>
+            <Version>2.2.0.0</Version>
+        </Distribution>
+        <Distribution z:Id="i72" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i73" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i74" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021</DestinationRelativePath>
+                    <Name>NI VeriStand 2021</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i75" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices</DestinationRelativePath>
+                    <Name>Custom Devices</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i76" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Configuration.llb</DestinationRelativePath>
+                    <Name>Configuration.llb</Name>
+                    <SourceItem z:Ref="i20" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i77" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation</DestinationRelativePath>
+                    <Name>NI 272x Resistive Simulation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i78" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Custom Device NI 272x Resistive Simulation.xml</DestinationRelativePath>
+                    <Name>Custom Device NI 272x Resistive Simulation.xml</Name>
+                    <SourceItem z:Ref="i21" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i79" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb</DestinationRelativePath>
+                    <Name>Engine Linux64.llb</Name>
+                    <SourceItem z:Ref="i22" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i80" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Engine.llb</DestinationRelativePath>
+                    <Name>Engine.llb</Name>
+                    <SourceItem z:Ref="i23" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i81" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Engine_depinstr.bin</DestinationRelativePath>
+                    <Name>Engine_depinstr.bin</Name>
+                    <SourceItem z:Ref="i24" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i82" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\NI-272x Resistive Simulation Quick Start Guide.md</DestinationRelativePath>
+                    <Name>NI-272x Resistive Simulation Quick Start Guide.md</Name>
+                    <SourceItem z:Ref="i28" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i83" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation</DestinationRelativePath>
+                    <Name>Quick Start Documentation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i84" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\1_DeviceSettings.png</DestinationRelativePath>
+                    <Name>1_DeviceSettings.png</Name>
+                    <SourceItem z:Ref="i25" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i85" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images</DestinationRelativePath>
+                    <Name>Images</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i86" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\2_MainPageSettings.png</DestinationRelativePath>
+                    <Name>2_MainPageSettings.png</Name>
+                    <SourceItem z:Ref="i26" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i87" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2021\Custom Devices\NI 272x Resistive Simulation\Quick Start Documentation\Images\3_DesiredValues.png</DestinationRelativePath>
+                    <Name>3_DesiredValues.png</Name>
+                    <SourceItem z:Ref="i27" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>NI 272x Resistive Simulation for VeriStand 2021</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i88">
+                <FileName />
+                <Version>none</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <Description>NI 272x Resistive Simulation Custom Device integrates the NI 272x series resistive simulation hardware into NI VeriStand. This custom device supports Windows, Pharlap RT and Linux RT targets.</Description>
+            <DisplayName>NI 272x Resistive Simulation for VeriStand 2021</DisplayName>
+            <FileName>ni-272x-resistive-simulation-veristand-2021-support_2.2.0.0_windows_x64.nipkg</FileName>
+            <MaintainerEmail>ni-forum@email.com</MaintainerEmail>
+            <MaintainerName>VeriStand Open Source Add-Ons</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-272x-resistive-simulation-veristand-2021-support</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct-2</ProductName>
+            <Section>Application Software</Section>
+            <Synopsis>NI 272x Resistive Simulation Custom Device </Synopsis>
+            <Version>2.2.0.0</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i89">
+            <Distributions>
+                <Distribution z:Ref="i38" />
+                <Distribution z:Ref="i55" />
+                <Distribution z:Ref="i72" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions />
+</Solution>

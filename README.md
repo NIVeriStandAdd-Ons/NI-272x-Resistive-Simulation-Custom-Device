@@ -28,6 +28,10 @@ This IP should be considered high quality and mature. The IP has been used world
 
 [NI 272x Reference VIs](https://www.ni.com/en-us/support/downloads/drivers/download.ni-272x-reference-vis.html) version 13.0 or later
 
+### Built Availability ###
+
+For VeriStand 2019 or later: See Releases tab. <br>
+For VeriStand 2016 or earlier: See [NI VeriStand Add-ons Community](https://decibel.ni.com/content/docs/DOC-24289).
 
 ### Support and Contact ###
 This add-on is provided as open-source software.  If it does not meet your exact specification, you are encouraged to modify the source code to meet your needs.  It is not officially supported by NI.
