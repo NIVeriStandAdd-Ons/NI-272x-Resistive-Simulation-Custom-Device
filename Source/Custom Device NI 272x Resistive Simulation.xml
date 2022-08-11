@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>National Instruments::NI 272x Resistive Simulation</eng>
-    <loc>National Instruments::NI 272x Resistive Simulation</loc>
+    <eng>NI 272x Resistive Simulation</eng>
+    <loc>NI 272x Resistive Simulation</loc>
   </AddMenu>
-  <Version>2.1.0</Version>
+  <Version>2.2.0</Version>
   <Type>Asynchronous</Type>
   <MaxOccurrence>2474</MaxOccurrence>
   <MainPageGUID>21b70d88-f326-4fa7-aab6-5b7b3a71cf29</MainPageGUID>
@@ -13,21 +13,29 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\Initialization VI.vi</Path>
+      <Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
-		<SourceDistribution>
-			<Source>
-				<SupportedTarget>PharlapWindows</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\NI 272x Resistive Simulation\Engine.llb\Driver.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI 272x Resistive Simulation\Engine.llb\Driver.vi</RealTimeSystemDestination>
-			</Source>
-		</SourceDistribution>
-	</CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>PharlapWindows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NI 272x Resistive Simulation\Engine.llb\Driver.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI 272x Resistive Simulation\Engine.llb\Driver.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb\Driver.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\NI 272x Resistive Simulation\Engine Linux64.llb\Driver.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
   <Dependencies />
   <Pages>
     <Page>
@@ -37,37 +45,37 @@
       </Name>
       <GUID>21b70d88-f326-4fa7-aab6-5b7b3a71cf29</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\daq device.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\daq device.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
-				<MenuItem>
-					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-					<Type>VI</Type>
-					<MinNrOfChilds>1</MinNrOfChilds>
-					<Name>
-						<eng>Delete Multiple Items</eng>
-						<loc>Delete Multiple Items</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>Dialogs\Delete Multiple Items.vi</Path>
-					</Item2Launch>
-				</MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
       </RunTimeMenu>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\On Load Action VI.vi</Path>
       </ActionVIOnLoad>
-			<ActionVIOnCompile>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\Compile Engine Data.vi</Path>
-			</ActionVIOnCompile>
-      </Page>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\Compile Engine Data.vi</Path>
+      </ActionVIOnCompile>
+    </Page>
     <Page>
       <Name>
         <eng>Status Section</eng>
@@ -163,7 +171,7 @@
         <Type>Absolute</Type>
         <Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
       </Item2Launch>
-	  <RunTimeMenu>
+      <RunTimeMenu>
         <MenuItem>
           <GUID>dce542f8-b972-4d48-b7c2-fe31388b766e</GUID>
           <Type>Action</Type>
@@ -176,20 +184,20 @@
             <Path>Custom Devices\NI 272x Resistive Simulation\Configuration.llb\Add Channel - Right Click.vi</Path>
           </Item2Launch>
         </MenuItem>
-				<MenuItem>
-					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-					<Type>VI</Type>
-					<MinNrOfChilds>1</MinNrOfChilds>
-					<Name>
-						<eng>Delete Multiple Items</eng>
-						<loc>Delete Multiple Items</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>Dialogs\Delete Multiple Items.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
       <ButtonList>
         <Button>
           <ID>AddChan</ID>
@@ -212,15 +220,13 @@
             <loc>Add Channel</loc>
           </TipStrip>
           <Documentation>
-            <eng>
-            </eng>
-            <loc>
-            </loc>
+            <eng></eng>
+            <loc></loc>
           </Documentation>
         </Button>
       </ButtonList>
     </Page>
-    </Pages>
+  </Pages>
   <CustomXML>
     <Dummy></Dummy>
   </CustomXML>
